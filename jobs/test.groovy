@@ -1,5 +1,5 @@
 job('DSL-TEST') {
     steps {
-        shell(readFileFromWorkspace('/scripts/helloword.sh')
+        shell(readFileFromWorkspace('/scripts/helloword.sh'))
     }
 }
